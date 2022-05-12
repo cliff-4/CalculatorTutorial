@@ -12,7 +12,7 @@ int main() {
 	x = y = result = 0.0;
 
 	cout << "Calculator Console Application" << endl << endl;
-	cout << "Please enter the operation to perform. Format: a+b | a-b | a*b | a/b" << endl;
+	cout << "Please enter the operation to perform. \nFormat: a+b | a-b | a*b | a/b" << endl;
 
 	Calculator c;
 	while (true) {
@@ -25,6 +25,7 @@ int main() {
 		else {
 			result = c.Calculate(x, oper, y);
 		}
+
 		cout << "Result is: " << result << endl;
 	}
 
